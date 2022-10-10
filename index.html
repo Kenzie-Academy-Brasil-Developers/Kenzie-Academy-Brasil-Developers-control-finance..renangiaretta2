@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Finance</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Control Finance - Seu controle financeiro">
+    <link rel="stylesheet" href="styles/globalStyles.css">
+    <link rel="stylesheet" href="pages/home/buttons&fonts.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/sizes.css">
+    <link rel="stylesheet" href="styles/spacing.css">
+    <link rel="stylesheet" href="styles/colors.css">
+    <link rel="stylesheet" href="styles/display.css">
+</head>
+<body>
+    <div class="background_menu backgroundColor-1 full_w">
+        <header class="full container">
+            <div class="header__div full gap-5 desktop_nav">
+                <img class="logo" src="assets/logo.png" alt="">
+                <button id="btnRegistry" class="header__div-button full text3-medium button__primary">Registrar novo valor</button>
+            </div>
+        </header>
+    </div>
+    <main id="app" class="container main flex__column align__start justify__center gap-1">
+        <section class="main_section full_w flex__column, justify__center align__center, desktop_filter">
+                <h2 class="title-2-medium mb-1 desktop_financialResume_formatting">Resumo financeiro</h2>
+                <div class="resume_section__div flex__row gap-3">
+                    <button id="filterAll" class="button button__outline text3-medium">Todos</button>
+                    <button id="filterEntrada" class="button button__outline text3-medium">Entradas</button>
+                    <button id="filterSaida" class="button button__outline text3-medium">Saídas</button>
+                </div>
+        </section>
+        <section id="sectionSum" class="section_sum flex__row justify__between align__center backgroundColor-1 full_w">
+        </section>
+    <script src="scripts/modal.js"></script>
+    <script src="pages/home/index.js"></script>
+</body>
+</html>

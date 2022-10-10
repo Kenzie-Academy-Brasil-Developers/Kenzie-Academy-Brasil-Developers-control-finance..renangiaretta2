@@ -1,0 +1,23 @@
+.background_menu{
+    height: 132px;
+    border-bottom: 1px, solid, black;
+}
+
+.header{    
+    height: 132px;
+}
+
+.header__div{
+    padding: 28px 16px;
+}
+
+.header__div-button{
+    padding: 0px 14px;
+    height: 32px;
+    border-radius: var(--radius-1);
+    cursor: pointer;
+    color: var(--fixed-white);
+}
+.logo {
+    width: 45%;
+}

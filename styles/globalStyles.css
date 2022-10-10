@@ -50,9 +50,41 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   .container {
     max-width: 43rem;
-    margin: 0 1rem;
+    margin: 0 auto;
   }
+  
+  .desktop_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 28px;
+  }
+
+  .desktop_filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 15px;
+  }
+
+  .desktop_financialResume_formatting{
+    position: relative;
+    top: 16px;
+  }
+
+  .modal{
+    height: 350px;
+    top: 100px;
+  }
+  
+  .desktop_modal_divTwo{
+    display: flex;
+    justify-content: flex-end;
+  } 
 }

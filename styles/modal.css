@@ -1,0 +1,135 @@
+.modalWrapper{
+    background-color: var(--color-grey-1-opacity-5);
+    position: fixed;
+    bottom: 0;
+}
+
+.modal{
+    position: absolute;
+    background-color: var(--fixed-white);
+    width: 92%;
+    max-width: 500px;
+    height: 430px;
+    margin-top: 50px;
+    gap: 25px;
+    border-radius: var(--radius-1);
+    padding: 24px;
+    bottom: 300px;
+    animation: animateModal 0.2s ease;
+    
+}
+
+.modal_close-button{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-grey-2);
+    padding: 4px 12px;
+    background: var(--color-grey-5);
+    border-radius: var(--radius-2);
+    border: none;
+    cursor: pointer;
+}
+
+.modal_inputs{
+    gap: 8px;
+}
+
+.modal_inputs-input{
+    height: 44px;
+    padding: 0 16px;
+    border: 1.5px solid var(--color-grey-4);
+    border-radius: 8px;
+    color: var(--color-grey-1);
+    outline: var(--color-brand-1);
+}
+
+.modal_inputs-input:focus{
+    border-color: var(--color-brand-1);
+}
+
+.modal_inputs-input:active{
+    border-color: var(--color-brand-1);
+}
+
+.div__modal-4__span{
+    margin-bottom: 16px;
+}
+
+.moda_value_type_container{
+    gap: 12px;
+    margin-bottom:28px;
+}
+
+.moda_value_type_container-button{
+    height: 32px;
+    padding: 0 16px;
+    border: 1.5px solid var(--color-grey-4);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+    background-color: var(--fixed-white);
+    color: var(--color-grey-2);
+}
+
+.moda_value_type_container-button:hover{
+    background-color: var(--color-brand-3);
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+    outline: none;
+}
+
+.moda_value_type_container-button:active{
+    background-color: var(--color-brand-3);
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+    outline: none;
+}
+
+.moda_value_type_container-button:focus{
+    background-color: var(--color-brand-3);
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+    outline: none;
+}
+
+
+.modal_final_buttons_container{
+    gap: 16px;
+}
+
+.modal_final_buttons_container__btn-1{
+    height: 31px;
+    width: 50%;
+    padding: 7px 14px;
+    gap: 10px;
+    background: var(--color-grey-4);
+    border: none;
+    color: var(--color-grey-2);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.modal_final_buttons_container__btn-2{
+    background: var(--color-brand-1);
+    color: var(--fixed-white);
+    height: 31px;
+    width: 50%;
+    padding: 7px 14px;
+    gap: 10px;
+    border: none;
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+@keyframes animateModal {
+    0% {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

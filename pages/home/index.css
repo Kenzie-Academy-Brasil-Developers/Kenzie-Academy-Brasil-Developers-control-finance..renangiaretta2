@@ -1,1 +1,51 @@
-/* Desenvolva a estilização da sua página aqui */
+
+.main_section{
+    height: 89px;
+  } 
+  
+  .main{ 
+    padding: 28px 16px;
+  }
+  
+  .resume_section__div{
+    width: 261px;
+    height: 32px;
+  }
+  
+  .section_sum{
+    padding: 14px 16px;
+    border: 1.5px solid var(--color-grey-4);
+    border-radius: var(--radius-1);
+    height: 44px;
+  }
+  
+  .list_section__li{
+    padding: 8px 16px;
+    border: 1.5px solid var(--color-grey-5);
+    border-radius: var(--radius-1);
+    height: 42px;
+  }
+  
+  .list_section__li__div{
+    width: 128px;
+    height: 26px;
+  }
+  
+  .list_section__li__div-span{
+    width: 68px;
+    height: 26px;
+    padding: 7px 14px;
+    border-radius: var(--radius-2);
+    text-align: center;
+  }
+  
+  .empty_list{
+    border: 1.5px dashed var(--color-grey-3);
+    border-radius: var(--radius-1);
+    padding: 16px 0;
+  }
+  
+  .button_trash_img{
+    position: relative;
+    right: 2px;
+  }
